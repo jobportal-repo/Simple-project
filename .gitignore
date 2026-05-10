@@ -1,0 +1,7 @@
+# Ignore node_modules
+node_modules/
+task/node_modules/
+
+# Ignore package files
+task/package.json
+task/package-lock.json
