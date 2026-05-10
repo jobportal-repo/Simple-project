@@ -1,0 +1,20 @@
+/* User list container */
+h1{
+    text-align: center;
+}
+
+.user-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;         /* space between cards */
+  margin-top: 5px;
+}
+/* Each user card */
+.user-card {
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  border-radius: 8px;
+  width: 40%;
+  background-color: #f9f9f9;
+  text-align: left;
+}
